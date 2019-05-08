@@ -1,13 +1,11 @@
 package br.com.alura.agenda.ui;
 
 import android.app.AlertDialog;
-import android.arch.persistence.room.Room;
 import android.content.Context;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import br.com.alura.agenda.dao.AlunoDAO;
 import br.com.alura.agenda.database.AgendaDatabase;
 import br.com.alura.agenda.database.dao.RoomAlunoDAO;
 import br.com.alura.agenda.model.Aluno;
